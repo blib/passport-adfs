@@ -1,0 +1,42 @@
+{
+  "name": "passport-adfs",
+  "version": "0.0.2",
+  "description": "AD FS authentication strategy for Passport.",
+  "keywords": [
+    "passport",
+    "auth",
+    "adfs",
+    "authentication",
+    "oauth",
+    "oauth2"
+  ],
+  "author": {
+    "name": "Boris Blizniukov",
+    "email": "blib@mail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/blib/passport-adfs.git"
+  },
+  "bugs": {
+    "url": "http://github.com/blib/passport-adfs/issues"
+  },
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib/strategy.js",
+  "dependencies": {
+    "jsonwebtoken": "^9.0.2",
+    "jwks-rsa": "^3.1.0",
+    "passport-oauth2": "^1.8.0",
+    "util": "^0.12.5"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "scripts": {}
+}
