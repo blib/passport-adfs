@@ -31,6 +31,7 @@ passport.use(
       clientID: EXAMPLE_CLIENT_ID,
       clientSecret: EXAMPLE_CLIENT_SECRET,
       callbackURL: "http://localhost:3000/auth/example/callback",
+      resource: "b89030e7-e433-4aa1-a73d-b37fa6506a6e",
     },
     function (accessToken, refreshToken, profile, cb) {
       User.findOrCreate({ exampleId: profile.id }, function (err, user) {
