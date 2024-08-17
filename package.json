@@ -1,6 +1,6 @@
 {
   "name": "passport-adfs",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "AD FS authentication strategy for Passport.",
   "keywords": [
     "passport",
@@ -43,5 +43,11 @@
   },
   "devDependencies": {
     "vows": "^0.8.3"
+  },
+  "exports": {
+    ".": {
+      "types": "./lib/strategy.d.ts",
+      "default": "./lib/strategy.js"
+    }
   }
 }
