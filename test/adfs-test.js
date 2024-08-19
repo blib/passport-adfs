@@ -13,6 +13,7 @@ vows
             clientID: "ABC123",
             clientSecret: "secret",
             adfsURL: "https://adfs.example.com/adfs",
+            resource: "https://example.com",
           },
           function () {}
         );
