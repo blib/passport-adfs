@@ -1,5 +1,3 @@
-Here's a rewritten version of the instructions:
-
 # Configuring ADFS for `passport-adfs`
 
 ## Creating a New Application Group
@@ -22,7 +20,7 @@ Here's a rewritten version of the instructions:
 
 ### Step 3: Configure Client Settings
 
-1. Note the client identifier (you'll need this for ADFS_CLIENT_ID).
+1. Note the client identifier (you'll need this for `ADFS_CLIENT_ID`).
 2. Input the callback URL.
 3. Add the URL.
 4. Move to the next step.
@@ -32,7 +30,7 @@ Here's a rewritten version of the instructions:
 ### Step 4: Generate Secret
 
 1. Opt to generate a shared secret.
-2. Save this secret (you'll need it for ADFS_SECRET).
+2. Save this secret (you'll need it for `ADFS_SECRET`).
 3. Continue to the next step.
 
    ![alt text](SCR-20240820-nove.png)
@@ -40,7 +38,7 @@ Here's a rewritten version of the instructions:
 ### Step 5: Set Resource Identifier
 
 1. Enter a resource ID (this will appear in the 'aud' claim of the JWT).
-2. Save this ID (you'll need it for ADFS_RESOURCE).
+2. Save this ID (you'll need it for `ADFS_RESOURCE`).
 3. Add the resource.
 4. Proceed to the next step.
 
