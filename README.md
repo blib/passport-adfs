@@ -63,6 +63,10 @@ app.get(
 );
 ```
 
+## ADFS configuration
+
+[Detailed instruction on ADFS server configuration](docs/CONFIGURATION.md)
+
 ## Contributing
 
 #### Tests
