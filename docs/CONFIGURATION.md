@@ -102,9 +102,9 @@
    - Display name → commonname
 4. Finalize the rule setup.
 
-Note: ADFS doesn't provide additional claims by default. The 'sub' claim is crucial for most systems. Email and name claims are also beneficial. Add any desired profile information as claims here.
+   ![alt text](SCR-20240820-nsjq.png)
 
-    ![alt text](SCR-20240820-nsjq.png)
+Note: ADFS doesn't provide additional claims by default. The 'sub' claim is crucial for most systems. Email and name claims are also beneficial. Add any desired profile information as claims here.
 
 ### Step 14: Apply Changes
 
